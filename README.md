@@ -1,24 +1,16 @@
 # Manual Testing Project
 
-A comprehensive automated testing project for the [Bellatrix Demos website](https://demos.bellatrix.solutions/) using Playwright with Python and pytest.
+A comprehensive automated testing project using Playwright with Python and pytest.
 
 ## 🚀 Project Overview
 
-This project provides automated testing for e-commerce functionality including:
-- **Shop Operations**: Product browsing, cart management, search functionality
-- **Contact Forms**: Form validation, accessibility, user interactions
-- **Promotions**: Category navigation, product displays, special offers
-- **Accessibility**: ARIA compliance, keyboard navigation, screen reader support
+This project provides automated testing for any website
 
 ## 📁 Project Structure
 
 ```
 Manual Testing/
-├── tests/                          # Test files
-│   ├── test_shop.py              # Shop functionality tests
-│   ├── test_contact_form.py      # Contact form tests
-│   ├── test_promotions.py        # Promotions tests
-│   └── README.md                 # Test documentation
+
 ├── chatmodes/                     # AI assistant modes
 │   ├── test-generator.chatmode.md    # Test generation mode
 │   ├── test-explorer.chatmode.md     # Website exploration mode
