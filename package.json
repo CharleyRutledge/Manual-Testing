@@ -1,0 +1,39 @@
+{
+  "name": "bellatrix-demos-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive Playwright tests for Bellatrix Demos website using Python",
+  "main": "index.js",
+  "scripts": {
+    "test": "pytest",
+    "test:headed": "pytest --headed",
+    "test:debug": "pytest --pdb",
+    "test:install": "playwright install",
+    "test:codegen": "playwright codegen https://demos.bellatrix.solutions/",
+    "test:update": "pytest --update-snapshots"
+  },
+  "keywords": [
+    "playwright",
+    "pytest",
+    "python",
+    "testing",
+    "e-commerce",
+    "accessibility",
+    "automation"
+  ],
+  "author": "Test Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/bellatrix-demos-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/bellatrix-demos-tests/issues"
+  },
+  "homepage": "https://github.com/your-org/bellatrix-demos-tests#readme"
+}
